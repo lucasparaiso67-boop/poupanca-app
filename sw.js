@@ -1,5 +1,5 @@
-const CACHE = 'poupanca-v1';
-const ARQUIVOS = ['/', '/index.html', '/manifest.json'];
+const CACHE = 'poupanca-v2';
+const ARQUIVOS = ['/poupanca-app/', '/poupanca-app/index.html', '/poupanca-app/manifest.json', '/poupanca-app/sw.js'];
 
 self.addEventListener('install', e => {
   e.waitUntil(
